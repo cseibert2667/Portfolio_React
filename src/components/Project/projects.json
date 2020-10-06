@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Weather Dashboard",
+      "repo": "https://github.com/cseibert2667/WeatherDashboard",
+      "live": "https://cseibert2667.github.io/WeatherDashboard/",
+      "image": "weather.png"
+    },
+    {
+      "title": "Budget Tracker - PWA",
+      "repo": "https://github.com/cseibert2667/BudgetPWA",
+      "live": "https://aqueous-reaches-52384.herokuapp.com/",
+      "image": "budget.png"
+    },
+    {
+      "title": "Fitness Tracker",
+      "repo": "https://github.com/cseibert2667/FitnessTracker",
+      "live": "https://frozen-cove-32421.herokuapp.com/",
+      "image": "fitness.png"
+    },
+    {
+      "title": "Employee Directory - React",
+      "repo": "https://github.com/cseibert2667/EmployeeDirectory_React",
+      "live": "https://hardcore-meninsky-5a15cc.netlify.app/",
+      "image": "empdir.png"
+    },
+    {
+      "title": "Good Games EZ",
+      "repo": "https://github.com/Jermdude7/Good_Games_E-Z",
+      "live": "https://jermdude7.github.io/Good_Games_E-Z/",
+      "image": "ggez.png"
+    },
+    {
+      "title": "BMI Calculator",
+      "repo": "https://github.com/cseibert2667/Project2-BMI-Calculator",
+      "live": "https://polar-dawn-53333.herokuapp.com/",
+      "image": "bmi.png"
+    }
+]

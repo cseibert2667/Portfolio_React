@@ -1,13 +1,14 @@
 import React from 'react';
-import About from "./components/About/About";
+import AboutMe from "./pages/AboutMe";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer";
+import Port from "./pages/Port"
 
 function App() {
   return (
     <>
       <Header />
-      <About />
+      <Port />
       <Footer />
     </>
   );

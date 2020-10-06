@@ -3,7 +3,7 @@ import "./AboutText.css"
 
 export default function AboutText() {
     return (
-        <div class="col">
+        <>
         <p>
             <img src={require("../../assets/headshot.png")} class="img-thumbnail mr-3" alt="profile-pic"/>
             Hey there! My name is Cooper Seibert, and I am an aspiring web
@@ -32,6 +32,6 @@ export default function AboutText() {
           profile below, or by clicking the "Portfolio" section above. Thank
           you for reading this far! :)
         </p>
-        </div>
+        </>
     )
 }

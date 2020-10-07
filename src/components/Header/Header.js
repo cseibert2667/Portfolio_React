@@ -1,14 +1,13 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
 
 export default function Header() {
   return (
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand-name" href="#">
+      <Link class="navbar-brand-name" to="/">
         Cooper Seibert
-      </a>
+      </Link>
       <button
         class="navbar-toggler"
         data-toggle="collapse"

@@ -11,10 +11,10 @@ export default function Project() {
         <p class="card-text">
           Description
         </p>
-        <a href={proj.repo} class="btn btn-primary">
+        <a href={proj.repo} class="btn btn-primary" id="button">
           GitHub Repo
         </a>
-        <a href={proj.live} class="btn btn-primary">
+        <a href={proj.live} class="btn btn-primary" id="button">
           Deployed Site
         </a>
       </div>

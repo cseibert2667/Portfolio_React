@@ -4,7 +4,7 @@ import "./ContactForm.css"
 export default function ContactForm() {
   return (
     <div class="container-contact float-left ml-4 my-5">
-      <h1>Contact</h1>
+      <h1><b>Contact</b></h1>
       <hr class="my-3" />
       <div class="row">
         <div class="col-10">

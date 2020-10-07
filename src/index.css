@@ -1,3 +1,11 @@
+body {
+    background-image: url("./assets/background.jpg");
+}
+
+.container-contact, .container-index, .container-port {
+    background-color: #779CAB;
+}
+
 @media (min-width: 250px){
     .container-index {
         width: 90%

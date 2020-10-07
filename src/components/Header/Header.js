@@ -1,5 +1,6 @@
 import React from "react";
-import "./Header.css"
+import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -20,19 +21,19 @@ export default function Header() {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">
+            <Link class="nav-link" to="/">
               About Me
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">
+            <Link class="nav-link" to="/portfolio">
               Portfolio
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">
+            <Link class="nav-link" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

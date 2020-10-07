@@ -1,33 +1,29 @@
 .navbar {
-    background-color: #557A95;
+    background-color: #033F63;
 }
 
-.navbar-brand {
+.navbar-brand-name {
     font-size: 32px;
-    color: #696969;
-    background-color: #b1a296;
+    color: #033F63;
+    background-color: #D4B483;
     border-radius: 15px;
-    padding: 5px;
+    padding: 0px 10px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.navbar-brand:hover {
-    color: #7395AE;
+.navbar-brand-name:hover {
+    color: #779CAB;
+    text-decoration: none;
 }
 
 .nav-item a {
     font-size: 24px;
-    color: #7395AE;
+    color: #779CAB;
 }
 
 .nav-item a:hover {
-    color: #5d5c61
-}
-
-.active a {
-    color: #b1a296;
-    font-weight: bold;
+    color: #D4B483
 }
 
 .navbar-toggler {

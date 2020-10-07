@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
 export default function Header() {
   return (
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand-name" href="#">
         Cooper Seibert
       </a>
       <button
